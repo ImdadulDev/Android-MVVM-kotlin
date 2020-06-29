@@ -1,0 +1,9 @@
+package net.rexdev.mvvm.data.network.responses
+
+import net.rexdev.mvvm.data.db.entities.User
+
+data class AuthResponse(
+    val isSuccessful : Boolean?,
+    val message: String?,
+    val user: User?
+)
